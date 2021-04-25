@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build": "parcel ./src/index.html",
     "dev": "parcel watch ./src/index.html",
     "serve": "cd ./dist && python3 -m http.server",
     "test": "jest --watchAll"
